@@ -1,0 +1,17 @@
+body {
+  display: grid;
+  transition: all .5s;
+  user-select: none;
+  color: blue;
+  .container {
+    color: red;
+    &__header {
+      font-size: 18px;
+      line-height: 18px;
+    }
+
+    &__body {
+      background-color: green;
+    }
+  }
+}
